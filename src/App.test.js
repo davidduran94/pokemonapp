@@ -32,17 +32,17 @@ const pokemons = [{
 ];
 
 
-test('renders without crash', () => {
+test('renders App without crash', () => {
   render(<App />);
 });
-test('renders without crash', () => {
+test('renders Form without crash', () => {
   render(<PokemonForm />);
 });
 
-test('renders without crash', () => {
+test('renders Item without crash', () => {
   render(<PokemonItem data={pokemon} />);
 });
-test('renders without crash', () => {
+test('renders Table without crash', () => {
   render(<PokemonTable  listPokemon={pokemons}/>);
 });
 
